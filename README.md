@@ -2,10 +2,10 @@
 <H3>DATE:</H3>
 <H1 ALIGN =CENTER>Implementation of MLP with Backpropagation for Multiclassification</H1>
 
-### Aim:
+## Aim:
 To implement a Multilayer Perceptron for Multi classification
 
-### Theory:
+## Theory:
 A multilayer perceptron (MLP) is a feedforward artificial neural network that generates a set of outputs from a set of inputs. An MLP is characterized by several layers of input nodes connected as a directed graph between the input and output layers. MLP uses back propagation for training the network. MLP is a deep learning method.
 A multilayer perceptron is a neural network connecting multiple layers in a directed graph, which means that the signal path through the nodes only goes one way. Each node, apart from the input nodes, has a nonlinear activation function. An MLP uses backpropagation as a supervised learning technique.
 MLP is widely used for solving problems that require supervised learning as well as research into computational neuroscience and parallel distributed processing. Applications include speech recognition, image recognition and machine translation.
@@ -93,7 +93,7 @@ In the backward pass,
 
 ![image](https://user-images.githubusercontent.com/112920679/198814362-05a251fd-fceb-43cd-867b-75e6339d870a.png)
 
-### Algorithm:
+## Algorithm:
 
 1. Import the necessary libraries of python.
 
@@ -112,7 +112,7 @@ Normalize our dataset.
 
 8. Finally, call the functions confusion_matrix(), and the classification_report() in order to evaluate the performance of our classifier.
 
-### Program:
+## Program:
 ### NAME : LAAKSHIT D
 ### REGISTER NO. 212222230071
 
@@ -141,9 +141,10 @@ predicted_values = m1.predict(testing_a)
 print(confusion_matrix(testing_b,predicted_values))
 print(classification_report(testing_b,predicted_values))
 ```
-### Output:
+
+## Output:
 
 ![image](https://github.com/laakshit-D/Ex-4-NN/assets/119559976/3bea5d68-39f0-411b-8b6d-bcb3c49ef2cf)
 
-### Result:
+## Result:
 Thus, MLP is implemented for multi-classification using python.
